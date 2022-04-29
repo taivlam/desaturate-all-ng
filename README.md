@@ -1,16 +1,16 @@
 Installation
 ============
 
-Using a terminal, you can do the following sequence of commands:
+Using a terminal, execute the following commands:
 
 ```
-$ git clone https://github.com/laerne/desaturate_all.git
-$ mv desaturate_all "~/.local/share/gnome-shell/extensions/desaturate_all@nicolas.brack.mail.be"
+$ git clone https://github.com/OmegaMartFan/desaturate_all.git
+$ mv desaturate_all "~/.local/share/gnome-shell/extensions/desaturate_all@OmegaMartFan-on-GitHub"
 ```
 
 Then press `Alt`+`F2`, type `r` in the dialog window, then press `Enter`.
 
-The default keyboard shortcut to toggle desaturation is `<Super>`+`e`. You can
+The default keyboard shortcut to toggle desaturation is `<Super>`+`e`.You can
 change this shortcut key using `gsettings`. For example, to change the keyboard
 shortcut to `<Ctrl>`+`e`, run the following command:
 
