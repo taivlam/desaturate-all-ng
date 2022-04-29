@@ -23,6 +23,9 @@ Then press `Alt`+`F2`, type `r` in the dialog window, then press `Enter`.
 
 (No idea what the above line actually does in GNOME - will test later.)
 
+You can now enable the extension by running `gnome-shell-extension-prefs`~~, or by
+browsing to https://extensions.gnome.org/local.~~
+
 To Do
 =====
 
@@ -38,9 +41,6 @@ $ gsettings --schemadir \
   ~/.local/share/gnome-shell/extensions/desaturate_all@OmegaMartFan-on-GitHub/schemas \
   set org.gnome.shell.extensions.desaturate-all.keybindings toggle "['<Ctrl>E']"
 ```
-
-You can now enable the extension by running `gnome-shell-extension-prefs`~~, or by
-browsing to https://extensions.gnome.org/local.~~
 
 License
 =======
