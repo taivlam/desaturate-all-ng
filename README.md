@@ -40,6 +40,9 @@ Some goals:
   Ubuntu
     * Though I can also explicitly indicate GNOME versions on Debian Stable,
       whenever issues arise
+    * However, I will likely stop working on this when I retire my Debian
+      Unstable or when System76 moves Pop!\_OS from GNOME-based COSMIC to its in
+      -house Rust-based DE - whichever comes first
 
 ## To Do
 
