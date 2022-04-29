@@ -1,5 +1,16 @@
-Installation
-============
+Prerequisites
+=============
+
+Make sure GNOME Extensions and GNOME Tweaks are installed.
+
+On Debian-/Ubuntu-based distros, install the required packages in a terminal
+emulator:
+```
+$ sudo apt-get install gnome-tweaks gnome-shell-extensions
+```
+
+Installation (Local)
+====================
 
 Using a terminal, execute the following commands:
 
