@@ -29,6 +29,8 @@ browsing to https://extensions.gnome.org/local.~~
 To Do
 =====
 
+* Make compliant with GNOME 40, 42 standards
+* Submit to GNOME Extensions
 * Get rid of keyboard shortcut
     * Remaining info has been moved here:
 
