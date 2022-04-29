@@ -1,6 +1,8 @@
 {
-    "uuid": "desaturate_all@nicolas.brack.mail.be",
+    "uuid": "desaturate_all@OmegaMartFan-on-GitHub",
     "name": "Desaturate All",
     "description": "Desature the entire gnome workspace",
+    "version": 1,
     "shell-version": ["3.18.5", "42"],
+    "url": "https://github.com/OmegaMartFan/desaturate_all"
 }
