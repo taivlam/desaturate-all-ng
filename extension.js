@@ -54,14 +54,18 @@ function _toggleEffect() {
 
 function init() {
     //Creation of button
-    button = new St.Bin({ style_class: 'panel-button',
-                          reactive: true,
-                          can_focus: true,
-                          x_fill: true,
-                          y_fill: false,
-                          track_hover: true });
-    extension_icon = new St.Icon({ icon_name: 'applications-graphics-symbolic',
-                                   style_class: 'system-status-icon' });
+    button = new St.Bin({
+        style_class: 'panel-button',
+        reactive: true,
+        can_focus: true,
+        track_hover: true
+    });
+    button.x_fill = true;
+    button.y_fill = false;
+    extension_icon = new St.Icon({
+        icon_name: 'applications-graphics-symbolic',
+        style_class: 'system-status-icon'
+    });
     button.set_child(extension_icon);
 
     //Creation of effect
