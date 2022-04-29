@@ -47,8 +47,12 @@ Some goals:
 ## To Do
 
 * Possibly rewrite the entire extension (though no promises)
-* Make compliant with GNOME 40, 42 standards
+  * At least this would justify renaming this extension
+* Ensure compliance with GNOME 40, 42 standards
+    * Since this is so simple, this could be easier than expected - but it doesn't
+    hurt to double check
 * Submit to GNOME Extensions
+    * Rename extension
 * Get rid of keyboard shortcut (what the heck is that compiled schema file?)
     * Remaining info has been moved here:
 
