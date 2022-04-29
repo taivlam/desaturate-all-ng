@@ -1,5 +1,4 @@
-Prerequisites
-=============
+## Prerequisites
 
 Make sure GNOME Extensions and GNOME Tweaks are installed.
 
@@ -9,8 +8,7 @@ emulator:
 $ sudo apt-get install gnome-tweaks gnome-shell-extensions
 ```
 
-Installation (Local)
-====================
+## Installation (Local)
 
 Using a terminal, execute the following commands:
 
@@ -26,12 +24,29 @@ Then press `Alt`+`F2`, type `r` in the dialog window, then press `Enter`.
 You can now enable the extension by running `gnome-shell-extension-prefs`~~, or by
 browsing to https://extensions.gnome.org/local.~~
 
-To Do
-=====
+## Goals and Maintenance Capacity
 
+Some goals:
+
+* Uphold the [KISS principle](https://en.wikipedia.org/wiki/KISS_principle)
+    * I know, it's GNOME
+    * But since GNOME's a mouse & keyboard GUI, this also stays that way
+    * Turn on/off the extension manually by clicking on the painter's palette
+    * So, no nonsense with "turn on automatically at night"
+    * If you really want this, then ask upstream GNOME to implement this
+        * just like how [Redshift](https://en.wikipedia.org/wiki/Redshift_(software))
+          isn't necessary in GNOME due to [Night Light](https://help.gnome.org/users/gnome-help/stable/display-night-light.html.en)
+* Keep the extension working for current releases on Debian Unstable/non-LTS
+  Ubuntu
+    * Though I can also explicitly indicate GNOME versions on Debian Stable,
+      whenever issues arise
+
+## To Do
+
+* Possibly rewrite the entire extension (though no promises)
 * Make compliant with GNOME 40, 42 standards
 * Submit to GNOME Extensions
-* Get rid of keyboard shortcut
+* Get rid of keyboard shortcut (what the heck is that compiled schema file?)
     * Remaining info has been moved here:
 
 ~~The default keyboard shortcut to toggle desaturation is `<Super>`+`e`. You can
@@ -44,7 +59,6 @@ $ gsettings --schemadir \
   set org.gnome.shell.extensions.desaturate-all.keybindings toggle "['<Ctrl>E']"
 ```
 
-License
-=======
+## License
 
 The code is licensed under the GPLv3 License, which can be found [here](LICENSE).
