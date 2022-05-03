@@ -33,7 +33,9 @@ Some goals:
     * But since GNOME's a mouse & keyboard GUI, this also stays that way
     * Turn on/off the extension manually by clicking on the painter's palette
     * So, no nonsense with "turn on automatically at night"
-    * If you really want this, then ask upstream GNOME to implement this
+    * If you really want this, then ask upstream GNOME to implement this in
+  its built-in Accessibility options
+    * I wouldn't want this coupled with Night Light
         * just like how [Redshift](https://en.wikipedia.org/wiki/Redshift_(software))
           isn't necessary in GNOME due to [Night Light](https://help.gnome.org/users/gnome-help/stable/display-night-light.html.en)
 * Keep the extension working for current releases on Debian Unstable/non-LTS
@@ -54,7 +56,11 @@ Some goals:
 * Submit to GNOME Extensions
     * Rename extension
 * Get rid of keyboard shortcut (what the heck is that compiled schema file?)
-    * Remaining info has been moved here:
+* True endgame is getting this implemented in GNOME's built-in
+  Accessibility settings so this extension can be permanently retired
+    * Don't misconstrue this desire for laziness
+    * I don't want to be developing this (potentially) forever
+* Remaining info has been moved here:
 
 ~~The default keyboard shortcut to toggle desaturation is `<Super>`+`e`. You can
 change this shortcut key using `gsettings`. For example, to change the keyboard
