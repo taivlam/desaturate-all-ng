@@ -3,6 +3,10 @@
     "name": "Desaturate All",
     "description": "Desature the entire gnome workspace",
     "version": 1,
-    "shell-version": ["3.18.5", "3.38", "42"],
+    "shell-version": [
+        "3.18.5",
+        "3.38",
+        "42"
+    ],
     "url": "https://github.com/OmegaMartFan/desaturate_all"
 }
