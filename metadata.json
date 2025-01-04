@@ -1,6 +1,6 @@
 {
     "uuid": "desaturate_all@taivlam-on-GitHub",
-    "name": "Desaturate All",
+    "name": "Desaturate All NG",
     "description": "Desature the entire gnome workspace",
     "version": 1,
     "shell-version": [
