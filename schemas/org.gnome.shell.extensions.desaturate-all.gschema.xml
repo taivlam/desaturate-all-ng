@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
     <schema
-        id="org.gnome.shell.extensions.desaturate-all.keybindings"
-        path="/org/gnome/shell/extensions/desaturate-all/keybindings/">
+        id="org.gnome.shell.extensions.desaturate-all-ng.keybindings"
+        path="/org/gnome/shell/extensions/desaturate-all-ng/keybindings/">
         <key type="as" name="toggle">
             <default>["&lt;Super&gt;E"]</default>
             <summary>Toggle desaturation (grayscale)</summary>
