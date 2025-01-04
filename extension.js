@@ -25,7 +25,7 @@ let extension_icon;
 let color_effect;
 
 const Keybindings = {
-    SchemaId: 'org.gnome.shell.extensions.desaturate-all.keybindings',
+    SchemaId: 'org.gnome.shell.extensions.desaturate-all-ng.keybindings',
     Keys: {TOGGLE: 'toggle'},
     enable: () => {
         const settings = ExtensionUtils.getSettings(Keybindings.SchemaId);
