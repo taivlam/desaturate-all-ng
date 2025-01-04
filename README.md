@@ -13,8 +13,8 @@ $ sudo apt-get install gnome-tweaks gnome-shell-extensions
 Using a terminal, execute the following commands:
 
 ```
-$ git clone https://github.com/OmegaMartFan/desaturate_all.git
-$ mv desaturate_all "~/.local/share/gnome-shell/extensions/desaturate_all@OmegaMartFan-on-GitHub"
+$ git clone https://github.com/taivlam/desaturate_all.git
+$ mv desaturate_all "~/.local/share/gnome-shell/extensions/desaturate_all@taivlam-on-GitHub"
 ```
 
 Then press `Alt`+`F2`, type `r` in the dialog window, then press `Enter`.
@@ -68,7 +68,7 @@ shortcut to `<Ctrl>`+`e`, run the following command:~~
 
 ```
 $ gsettings --schemadir \
-  ~/.local/share/gnome-shell/extensions/desaturate_all@OmegaMartFan-on-GitHub/schemas \
+  ~/.local/share/gnome-shell/extensions/desaturate_all@taivlam-on-GitHub/schemas \
   set org.gnome.shell.extensions.desaturate-all.keybindings toggle "['<Ctrl>E']"
 ```
 
