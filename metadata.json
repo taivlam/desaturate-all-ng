@@ -1,5 +1,5 @@
 {
-    "uuid": "desaturate_all@OmegaMartFan-on-GitHub",
+    "uuid": "desaturate_all@taivlam-on-GitHub",
     "name": "Desaturate All",
     "description": "Desature the entire gnome workspace",
     "version": 1,
@@ -13,5 +13,5 @@
         "46",
         "47"
     ],
-    "url": "https://github.com/OmegaMartFan/desaturate_all"
+    "url": "https://github.com/taivlam/desaturate_all"
 }
