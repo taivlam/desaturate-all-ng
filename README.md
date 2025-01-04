@@ -1,3 +1,10 @@
+# Desaturate All NG
+
+This extension is on [GNOME Extensions](https://extensions.gnome.org/extension/7740/desaturate-all-ng/).
+(I will use a badge later, as the extension is currently under review.)
+
+(I chose a working name to make this fork unique from the original.)
+
 ## Prerequisites
 
 Make sure GNOME Extensions and GNOME Tweaks are installed.
